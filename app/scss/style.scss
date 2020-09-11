@@ -184,6 +184,10 @@
         min-height: 70px;
         padding: 10px 30px;
     }
+    &-star {
+        display: flex;
+        align-items: center;
+    }
     &-author {
         display: flex;
         align-items: center;
