@@ -9,7 +9,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  font-family: 'Roboto-Regular', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: #546e7a;
@@ -378,3 +378,46 @@ li {
 
 .icosvg-1 svg {
   width: 86px; }
+
+.author {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .author__box {
+    max-width: 650px;
+    width: 100%;
+    min-height: 215px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #8bc34a; }
+  .author__title {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    margin-right: 45px;
+    max-width: 260px; }
+    .author__title span {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700; }
+  .author__link {
+    font-size: 18px;
+    line-height: 36px;
+    padding: 14px 40px;
+    background-color: white; }
